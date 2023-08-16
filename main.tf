@@ -8,10 +8,10 @@ resource "aws_s3_bucket" "example" {
 }
 terraform {
   cloud {
-    organization = "ctgopinaathb7eabccc"
+    organization = "ctgopinaath789"
 
     workspaces {
-      name = "raaka"
+      name = "terraform_test"
     }
   }
 }
