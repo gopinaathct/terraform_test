@@ -6,7 +6,7 @@ resource "aws_s3_bucket" "example" {
     Environment = "Dev"
   }
 }
-resource "aws_s3_bucket" "example" {
+resource "aws_s3_bucket" "example2" {
   bucket = "my-tf-test-bucket-raaka-2"
 
   tags = {
