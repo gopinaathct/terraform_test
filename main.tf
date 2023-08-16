@@ -6,6 +6,14 @@ resource "aws_s3_bucket" "example" {
     Environment = "Dev"
   }
 }
+resource "aws_s3_bucket" "example" {
+  bucket = "my-tf-test-bucket-raaka-2"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
 terraform {
   cloud {
     organization = "ctgopinaath789"
